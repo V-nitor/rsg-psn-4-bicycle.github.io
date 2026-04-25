@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans&display=swap');
+
+/* ↓ ----- Main rules ----- ↓ */
+
+* {
+    font-family: "Google Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Blacks & Whites */
+    --black1: rgb(0, 0, 0);
+    --white1: rgb(255, 255, 255);
+    /* Other colors */
+    --color1: rgb(0, 0, 255);
+    --color2: rgb(0, 255, 0);
+    --color3: rgb(255, 0, 0);
+    --color4: rgb(255, 0, 150);
+    --color5: rgb(0, 255, 255);
+    --color6: rgb(0, 255, 150);
+    --color7: rgb(225, 0, 255);
+}
+
+/* ↓ ----- Specific rules ----- ↓ */
+
+body {
+    overflow-x: hidden;
+}
+
+::first-letter,
+span.cpt_letter{
+    text-transform: uppercase;
+}
+
+::placeholder{
+    text-transform: capitalize;
+}
+
+/* ↓ ----- Page ----- ↓ */
