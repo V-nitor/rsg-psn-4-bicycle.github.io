@@ -20,6 +20,8 @@
 
 10. “lubrifiant-teflon”= https://www.materiel-velo.com/1449300-lubrifiant-teflon-park-tool-cl-1.html
 
+11. “Slash.svg”= https://fr.wiktionary.org/wiki/barre_oblique
+
 
 Software & Internet tool used! =
 

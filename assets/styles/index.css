@@ -27,6 +27,7 @@
 
 body {
     overflow-x: hidden;
+    color: var(--color1);
 }
 
 ::first-letter,
@@ -39,3 +40,88 @@ span.cpt_letter{
 }
 
 /* ↓ ----- Page ----- ↓ */
+
+/* ↓---Section1---↓ */
+
+.section1 > p{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.gear{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 50px;
+    margin-bottom: 50px;
+}
+
+.gear-container{
+    display: grid;
+    grid-template-columns: 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr;
+}
+
+.gear-container .description{
+    text-align: center;
+}
+.gear-container .img{
+    height: 10rem;
+}
+
+.gear-container > .spacing > .img{
+    background: url(../imgs/Slash.svg.png) center/contain no-repeat;
+}
+
+.gear-container:nth-of-type(1) > .tool:nth-of-type(1) > .img{
+    background: url(../imgs/pexels-lucanardone-&-karola-g.png) center/cover;
+}
+
+.gear-container:nth-of-type(1) > .tool:nth-of-type(3) > .img{
+    background: url(../imgs/pexels-jacob-moseholt-514418-18517278.png) center/cover;
+}
+
+.gear-container:nth-of-type(1) > .tool:nth-of-type(5) > .img{
+    background: url(../imgs/pexels-mikhail-nilov-7814643.jpg) center/cover;
+}
+
+.gear-container:nth-of-type(1) > .tool:nth-of-type(7) > .img{
+    background: url(../imgs/pexels-stephanefabricebass-14215010.jpg) center/cover;
+}
+
+.gear-container:nth-of-type(1) > .tool:nth-of-type(9) > .img{
+    background: url(../imgs/pexels-anete-lusina-4792719.jpg) center/cover;
+}
+
+.gear-container:nth-of-type(2) > .tool:nth-of-type(1) > .img{
+    background: url(../imgs/boitier-nettoyant-pour-chaine-de-velo.jpg) center/cover;
+}
+
+.gear-container:nth-of-type(2) > .tool:nth-of-type(3) > .img{
+    background: url(../imgs/pexels-jonathanborba-28576626.jpg) center/cover;
+}
+
+.gear-container:nth-of-type(2) > .tool:nth-of-type(5) > .img{
+    background: url(../imgs/3x_Premium_Brush_Kit.png) center/cover;
+}
+
+.gear-container:nth-of-type(2) > .tool:nth-of-type(7) > .img{
+    background: url(../imgs/pexels-polina-tankilevitch-4440527.jpg) center/cover;
+}
+
+.gear-container:nth-of-type(2) > .tool:nth-of-type(9) > .img{
+    background: url(../imgs/lubrifiant-teflon.jpg) center/cover;
+}
+
+.last-notes{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.last-notes > p:nth-of-type(1){
+    text-align: left;
+    margin-left: 30px;
+}
+
+.last-notes > p:nth-of-type(2){
+    text-align: right;
+    margin-right: 30px;
+}
