@@ -1,6 +1,5 @@
-# rsg-psn-4-bicycle.github.io --- Day2
+# rsg-psn-4-bicycle.github.io --- Day3
 
-Well, this day… I could put some details for the 1st section. That all!
-But better something than not at all, right?
-
-Oh yeah! I began the french part because it's easier for me to begin ^^!
+Well, I adjust details into section1. And now I begun the section2
+…
+That's it. Always into the  french part, voilà.

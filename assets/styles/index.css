@@ -18,16 +18,22 @@
     --color2: rgb(0, 255, 0);
     --color3: rgb(255, 0, 0);
     --color4: rgb(255, 0, 150);
-    --color5: rgb(0, 255, 255);
+    --color5: rgb(0, 220, 220);
     --color6: rgb(0, 255, 150);
     --color7: rgb(225, 0, 255);
 }
 
 /* ↓ ----- Specific rules ----- ↓ */
 
-body {
+body{
     overflow-x: hidden;
     color: var(--color1);
+    text-align: center;
+}
+
+section{
+    width: 97.5%;
+    margin: 0 auto;
 }
 
 ::first-letter,
@@ -39,20 +45,49 @@ span.cpt_letter{
     text-transform: capitalize;
 }
 
+.underline1{
+    border-bottom: 2px solid;
+}
+
+span.underline2{
+    border-bottom: 5px double;
+}
+
+hr{
+    width: 75%;
+    margin: 0 auto;
+    color: var(--color2);
+}
+
 /* ↓ ----- Page ----- ↓ */
+
+header{
+    text-align: left;
+    color: var(--color7);
+}
+
+h2{
+    color: var(--color3);
+    text-align: left;
+    margin: 25px 0 3rem;
+    width: 60%;
+}
 
 /* ↓---Section1---↓ */
 
 .section1 > p{
-    text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+.section1 > p:nth-of-type(1){
+    color: var(--black1);
 }
 
 .gear{
     display: grid;
     grid-template-rows: 1fr 1fr;
     row-gap: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .gear-container{
@@ -60,11 +95,23 @@ span.cpt_letter{
     grid-template-columns: 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr;
 }
 
-.gear-container .description{
-    text-align: center;
-}
 .gear-container .img{
     height: 10rem;
+}
+
+.gear-container .description{
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.desc-bundle p:nth-of-type(2){
+    color: var(--color5);
+}
+
+.desc-bundle > hr{
+    color: black;
 }
 
 .gear-container > .spacing > .img{
@@ -80,7 +127,7 @@ span.cpt_letter{
 }
 
 .gear-container:nth-of-type(1) > .tool:nth-of-type(5) > .img{
-    background: url(../imgs/pexels-mikhail-nilov-7814643.jpg) center/cover;
+    background: url(../imgs/pexels-mikhail-nilov-7814643.jpg) center/contain;
 }
 
 .gear-container:nth-of-type(1) > .tool:nth-of-type(7) > .img{
@@ -100,7 +147,7 @@ span.cpt_letter{
 }
 
 .gear-container:nth-of-type(2) > .tool:nth-of-type(5) > .img{
-    background: url(../imgs/3x_Premium_Brush_Kit.png) center/cover;
+    background: url(../imgs/3x_Premium_Brush_Kit.png) center/contain no-repeat;
 }
 
 .gear-container:nth-of-type(2) > .tool:nth-of-type(7) > .img{
@@ -114,14 +161,36 @@ span.cpt_letter{
 .last-notes{
     display: grid;
     grid-template-columns: 50% 50%;
+    margin-bottom: 50px;
 }
 
 .last-notes > p:nth-of-type(1){
     text-align: left;
     margin-left: 30px;
+    color: var(--black1);
 }
 
 .last-notes > p:nth-of-type(2){
     text-align: right;
     margin-right: 30px;
+    color: var(--color4);
+}
+
+/* ↓---Section2---↓ */
+
+.section2 > p:nth-of-type(1){
+    text-align: start;
+}
+
+.warning{
+    margin: 50px 10px;
+}
+
+.warning-container{
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+}
+
+.section2 > p:nth-of-type(2){
+    text-align: start;
 }
