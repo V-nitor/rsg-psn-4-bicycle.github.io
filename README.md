@@ -1,5 +1,4 @@
-# rsg-psn-4-bicycle.github.io --- Day3
+# rsg-psn-4-bicycle.github.io --- Day4
 
-Well, I adjust details into section1. And now I begun the section2
-…
-That's it. Always into the  french part, voilà.
+Technically, the Second section is FINISH!!
+The third part is ready to be filled for the next day ^u^ !

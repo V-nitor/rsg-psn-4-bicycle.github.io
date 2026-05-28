@@ -17,10 +17,10 @@
     --color1: rgb(0, 0, 255);
     --color2: rgb(0, 255, 0);
     --color3: rgb(255, 0, 0);
-    --color4: rgb(255, 0, 150);
-    --color5: rgb(0, 220, 220);
+    --color4: rgb(255, 50, 170);
+    --color5: rgb(0, 200, 200);
     --color6: rgb(0, 255, 150);
-    --color7: rgb(225, 0, 255);
+    --color7: rgb(195, 0, 220);
 }
 
 /* ↓ ----- Specific rules ----- ↓ */
@@ -34,6 +34,7 @@ body{
 section{
     width: 97.5%;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 ::first-letter,
@@ -51,6 +52,26 @@ span.cpt_letter{
 
 span.underline2{
     border-bottom: 5px double;
+}
+
+.box-stylize1{
+    color: var(--color7);
+}
+
+.box-stylize2{
+    color: var(--color5);
+}
+
+.box-stylizeB{
+    color: var(--black1);
+}
+
+.box-stylize3{
+    color: var(--color3);
+}
+
+.box-stylize4{
+    color: var(--color4);
 }
 
 hr{
@@ -119,11 +140,11 @@ h2{
 }
 
 .gear-container:nth-of-type(1) > .tool:nth-of-type(1) > .img{
-    background: url(../imgs/pexels-lucanardone-&-karola-g.png) center/cover;
+    background: url(../imgs/pexels-lucanardone-&-karola-g.webp) center/cover;
 }
 
 .gear-container:nth-of-type(1) > .tool:nth-of-type(3) > .img{
-    background: url(../imgs/pexels-jacob-moseholt-514418-18517278.png) center/cover;
+    background: url(../imgs/pexels-jacob-moseholt-514418-18517278.webp) center/cover;
 }
 
 .gear-container:nth-of-type(1) > .tool:nth-of-type(5) > .img{
@@ -139,7 +160,7 @@ h2{
 }
 
 .gear-container:nth-of-type(2) > .tool:nth-of-type(1) > .img{
-    background: url(../imgs/boitier-nettoyant-pour-chaine-de-velo.jpg) center/cover;
+    background: url(../imgs/boitier-nettoyant-pour-chaine-de-velo.webp) center/cover;
 }
 
 .gear-container:nth-of-type(2) > .tool:nth-of-type(3) > .img{
@@ -147,7 +168,7 @@ h2{
 }
 
 .gear-container:nth-of-type(2) > .tool:nth-of-type(5) > .img{
-    background: url(../imgs/3x_Premium_Brush_Kit.png) center/contain no-repeat;
+    background: url(../imgs/3x_Premium_Brush_Kit.webp) center/contain no-repeat;
 }
 
 .gear-container:nth-of-type(2) > .tool:nth-of-type(7) > .img{
@@ -178,7 +199,7 @@ h2{
 
 /* ↓---Section2---↓ */
 
-.section2 > p:nth-of-type(1){
+.section2 p{
     text-align: start;
 }
 
@@ -189,8 +210,50 @@ h2{
 .warning-container{
     display: grid;
     grid-template-columns: 50px 1fr 50px;
+    height: 100px;
+}
+
+.warning-container > div:nth-of-type(1){
+    background: url(../imgs/Bracket1.png) center/cover;
+}
+
+.warning-container > .text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 0 10vw;
+}
+
+.text p:nth-of-type(1){
+    color: var(--color3);
+}
+
+.warning-container > div:nth-of-type(3){
+    background: url(../imgs/Bracket2.png) center/cover;
 }
 
 .section2 > p:nth-of-type(2){
-    text-align: start;
+    color: var(--color4);
+}
+
+/* ↓---Section3---↓ */
+
+.section3 a,
+.section3 a:visited{
+    color: var(--color4);
+}
+
+.line-4-left_side{
+    position: relative;
+}
+
+.line-4-left_side > p:nth-of-type(1){
+    position: absolute;
+}
+
+/* ↓---Section4---↓ */
+
+.section4 > h2{
+    width: 30%;
 }

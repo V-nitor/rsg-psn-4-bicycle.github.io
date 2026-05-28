@@ -22,6 +22,8 @@
 
 11. “Slash.svg”= https://fr.wiktionary.org/wiki/barre_oblique
 
+12. “Bracket1” & “Bracket2”= MYSELF!
+
 
 Software & Internet tool used! =
 
