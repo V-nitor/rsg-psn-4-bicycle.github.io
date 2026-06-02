@@ -74,6 +74,10 @@ span.underline2{
     color: var(--color4);
 }
 
+p.line-height{
+    line-height: 2;
+}
+
 hr{
     width: 75%;
     margin: 0 auto;
@@ -89,9 +93,14 @@ header{
 
 h2{
     color: var(--color3);
+    font-size: 25px;
     text-align: left;
     margin: 25px 0 3rem;
     width: 60%;
+}
+
+p{
+    font-size: 17.5px;
 }
 
 /* ↓---Section1---↓ */
@@ -239,6 +248,16 @@ h2{
 
 /* ↓---Section3---↓ */
 
+.section3 ul{
+    font-size: 17.5px;
+    margin: 50px 25px;
+    text-align: start;
+}
+
+.section3 li:nth-of-type(1){
+    margin-bottom: 20px;
+}
+
 .section3 a,
 .section3 a:visited{
     color: var(--color4);
@@ -246,6 +265,7 @@ h2{
 
 .line-4-left_side{
     position: relative;
+    margin-bottom: 20px;
 }
 
 .line-4-left_side > p:nth-of-type(1){
@@ -257,3 +277,66 @@ h2{
 .section4 > h2{
     width: 30%;
 }
+
+.section4 p{
+    text-align: start;
+}
+
+.columns{
+    margin: 45px 0;
+    height: 22rem;
+    columns: 4;
+    column-gap: 50px;
+    column-rule: 5px outset var(--black1);
+}
+
+.cleaning-utensil{
+    display: grid;
+    grid-template-rows: 75px 245px;
+    gap: 32px;
+}
+
+.name-utensil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.name-utensil > h5{
+    color: var(--color4);
+    font-size: 20px;
+}
+
+.targets{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 81,66px repeat(3);
+}
+
+.targets > h6{
+    font-size: 20px;
+    text-align: start;
+    padding-right: 15px;
+    font-weight: normal;
+}
+
+.more-columns{
+    grid-column-end: span 2;
+    text-align: center !important;
+}
+
+.more-rows{
+    grid-row-end: span 2;
+}
+
+/* ↓---Section5---↓ */
+
+h3{
+    color: var(--color3);
+    font-size: 25px;
+    margin: 25px auto 3rem;
+    width: 15%;
+}
+
+/* ↓---Final_section---↓ */
