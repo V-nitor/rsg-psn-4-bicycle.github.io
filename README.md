@@ -1,7 +1,6 @@
-# rsg-psn-4-bicycle.github.io --- Day5
+# rsg-psn-4-bicycle.github.io --- Day6
 
-Third section done, fourth section almost finish!
-Howerver, the fifth section will be kind hard for the next time…
+Finally! An half of my work has been translate by my OWN hand. NO AI! So… it's completely NORMAL if there are a LOOOOT of  mistake.
+I will remember to come back if I find big in the future.
 
-So, while waiting to found the solutions. I risk to finish some details for the 4th section (and maybe more) and FINALLY translate all my work done in english page ^u^ !
-See you next time ^^/ ! Thanks !
+Otherwise! I added a little decorative personal style on the "h5"s from "Phase 3 - let's clean!" ^^.
