@@ -1,6 +1,5 @@
-# rsg-psn-4-bicycle.github.io --- Day6
+# rsg-psn-4-bicycle.github.io --- Day7
 
-Finally! An half of my work has been translate by my OWN hand. NO AI! So… it's completely NORMAL if there are a LOOOOT of  mistake.
-I will remember to come back if I find big in the future.
+Well, I couldn't began the "Phase 4". So, I attacked AND FINISHED the "Final phase" and "Footer" instead! Because it was CLEARLY easier!!
 
-Otherwise! I added a little decorative personal style on the "h5"s from "Phase 3 - let's clean!" ^^.
+Ps: Oh yeah, all of this… IN french part only (for now)… sorry.
