@@ -361,6 +361,62 @@ h3{
     width: 15%;
 }
 
+.phase4-container{
+    min-height: 25rem;
+}
+
+.clock-container{
+    height: 20rem;
+    position: relative;
+}
+
+.clock-hook{
+    display: inline-block;
+    background: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+    position: absolute;
+    left: 50%;
+    top: -8%;
+    transform: translateX(-50%);
+}
+
+
+.clock-outside{
+    height: 100%;
+    width: 100%;
+    background: black;
+    clip-path: ellipse(300px 10rem at 50% 50%);
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform: translateX(-50%) translateY(50%);
+}
+
+.clock-inside{
+    height: 100%;
+    width: 100%;
+    background: red;
+    clip-path: ellipse(270px 135px at 50% 50%);
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform: translateX(-50%) translateY(50%);
+}
+
+.clock-center{
+    display: inline-block;
+    background: black;
+    height: 25px;
+    width: 25px;
+    border-radius: 25px;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform: translateX(-50%) translateY(50%);
+}
+
 /* ↓---Final_section---↓ */
 
 .final_section{

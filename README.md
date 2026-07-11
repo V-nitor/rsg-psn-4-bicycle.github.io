@@ -1,5 +1,7 @@
-# rsg-psn-4-bicycle.github.io --- Day7
+# rsg-psn-4-bicycle.github.io --- Day8
 
-Well, I couldn't began the "Phase 4". So, I attacked AND FINISHED the "Final phase" and "Footer" instead! Because it was CLEARLY easier!!
+Well, I finally began the "Phase 4". So, the next step is to make a clock wich illustrated the "dry part".
 
-Ps: Oh yeah, all of this… IN french part only (for now)… sorry.
+But unfortunately, by lack time, I couldn't to make this correctly for now. But of course, I will come back to light my intension!
+
+See you next time ^^ !
