@@ -354,6 +354,11 @@ p{
 
 /* ↓---Section5---↓ */
 
+.section5 p{
+    color: var(--color1);
+    margin: 10px;
+}
+
 h3{
     color: var(--color3);
     font-size: 25px;
@@ -373,21 +378,21 @@ h3{
 .clock-hook{
     display: inline-block;
     background: black;
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
     border-radius: 25px;
     position: absolute;
     left: 50%;
-    top: -8%;
+    top: -7%;
     transform: translateX(-50%);
 }
 
 
 .clock-outside{
     height: 100%;
-    width: 100%;
+    width: 300px;
     background: black;
-    clip-path: ellipse(300px 10rem at 50% 50%);
+    clip-path: ellipse(150px 10rem at 50% 50%);
     position: absolute;
     left: 50%;
     bottom: 50%;
@@ -396,9 +401,9 @@ h3{
 
 .clock-inside{
     height: 100%;
-    width: 100%;
-    background: red;
-    clip-path: ellipse(270px 135px at 50% 50%);
+    width: 295px;
+    background: url(../imgs/Alarm-Clock-Digital_PNG.jpg) no-repeat bottom/cover;
+    clip-path: ellipse(145px 155px at 50% 50%);
     position: absolute;
     left: 50%;
     bottom: 50%;
@@ -416,6 +421,58 @@ h3{
     bottom: 50%;
     transform: translateX(-50%) translateY(50%);
 }
+
+.clock-container p{
+    margin: 0;
+    display: inline-block;
+    color: var(--color3);
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translateX(-50%) translateY(50%);
+}
+
+.clock-grid-h-container{
+    display: grid;
+    grid-template-columns: 1fr 150px 150px 1fr;
+    grid-template-areas: 
+    'left ct-left ct-right right';
+}
+
+.clock-grid-h-container p:nth-of-type(1){
+    grid-area: left;
+    text-align: right;
+} 
+
+.clock-grid-h-container p:nth-of-type(2){
+    grid-area: ct-left;
+    text-align: left;
+} 
+.clock-grid-h-container p:nth-of-type(3){
+    grid-area: ct-right;
+    text-align: right;
+} 
+
+.clock-grid-h-container p:nth-of-type(4){
+    grid-area: right;
+    text-align: left;
+}
+
+.clock-grid-v-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    'up'
+    ' dwn' ;
+}
+
+.clock-grid-v-container p:nth-of-type(1){
+    grid-area: up;
+} 
+
+.clock-grid-v-container p:nth-of-type(2){
+    grid-area: dwn;
+} 
 
 /* ↓---Final_section---↓ */
 

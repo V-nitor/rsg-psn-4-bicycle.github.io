@@ -1,7 +1,7 @@
-# rsg-psn-4-bicycle.github.io --- Day8
+# rsg-psn-4-bicycle.github.io --- Day9
 
-Well, I finally began the "Phase 4". So, the next step is to make a clock wich illustrated the "dry part".
+Err… I would have liked to finish my "dry part"…
 
-But unfortunately, by lack time, I couldn't to make this correctly for now. But of course, I will come back to light my intension!
+But unfortunately, once again… by lack time, I couldn't make this correctly. NEXT TIME! I SHOULD finish this madness and FINALLY begun the "media queries" (and most likely, some corrections)!! I hope SOO MUCH (^◕.◕^)!
 
-See you next time ^^ !
+See you next time ^^ ! And thanks again!
