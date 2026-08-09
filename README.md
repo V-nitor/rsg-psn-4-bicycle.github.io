@@ -1,7 +1,9 @@
-# rsg-psn-4-bicycle.github.io --- Day9
+# rsg-psn-4-bicycle.github.io --- Day10
 
-Err… I would have liked to finish my "dry part"…
+DONE!! FINALLY!!! I'm so glad to COMPLETED make this "dry part" today!
 
-But unfortunately, once again… by lack time, I couldn't make this correctly. NEXT TIME! I SHOULD finish this madness and FINALLY begun the "media queries" (and most likely, some corrections)!! I hope SOO MUCH (^◕.◕^)!
+I also updated the "finish-line" in <footer>, to become more natural. That is GREAT, isn't it?!
 
-See you next time ^^ ! And thanks again!
+Next day, I'll translate ALL OF THIS PARTS for you… my English speakers ^^. And, if I can, begin the "media queries".
+
+See ya ÈuÉ !

@@ -367,7 +367,8 @@ h3{
 }
 
 .phase4-container{
-    min-height: 25rem;
+    position: relative;
+    height: 25rem;
 }
 
 .clock-container{
@@ -428,8 +429,16 @@ h3{
     color: var(--color3);
     position: absolute;
     left: 50%;
-    top: 25%;
+    top: 20%;
     transform: translateX(-50%) translateY(50%);
+}
+
+.clock-grid-horizontal{
+    position: absolute;
+    transform: translateX(-50%) translateY(50%);
+    left: 50%;
+    bottom: 242.5px;
+    width: 100%;
 }
 
 .clock-grid-h-container{
@@ -446,16 +455,28 @@ h3{
 
 .clock-grid-h-container p:nth-of-type(2){
     grid-area: ct-left;
-    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: left;
 } 
 .clock-grid-h-container p:nth-of-type(3){
     grid-area: ct-right;
-    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: right;
 } 
 
 .clock-grid-h-container p:nth-of-type(4){
     grid-area: right;
     text-align: left;
+}
+
+.clock-grid-vertical{
+    position: absolute;
+    transform: translateX(-50%) translateY(50%);
+    left: 50%;
+    bottom: 85px;
+    width: 40%;
 }
 
 .clock-grid-v-container{
@@ -468,6 +489,11 @@ h3{
 
 .clock-grid-v-container p:nth-of-type(1){
     grid-area: up;
+    display: flex;
+    flex-direction: column;
+    width: 60px;
+    margin: 0 auto;
+    justify-content: end;
 } 
 
 .clock-grid-v-container p:nth-of-type(2){
@@ -538,8 +564,29 @@ footer{
 .finish-line{
     height: 50px;
     margin: 1.5rem 10px 2.5rem;
-    /* to remove ↓ */
-    background: var(--color3);
+    background: url(../imgs/Finish-line.png) center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 275px;
+}
+
+.finish-line strong:nth-of-type(1){
+    transform: translateY(35%) rotate(-5deg);
+}
+
+.finish-line strong:last-of-type::first-letter{
+    text-transform: lowercase;
+}
+
+.finish-line strong:last-of-type{
+    transform: translate(10%, 15%)
 }
 
 footer > p{
