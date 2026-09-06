@@ -94,11 +94,6 @@ hr{
 
 /* ↓ ----- Page ----- ↓ */
 
-header{
-    text-align: left;
-    color: var(--color7);
-}
-
 h2{
     color: var(--color3);
     font-size: 25px;
@@ -109,6 +104,27 @@ h2{
 
 p{
     font-size: 17.5px;
+}
+
+/* ↓ ----- Header ----- ↓ */
+
+header{
+    margin-top: 20px;
+    position: relative;
+    text-align: left;
+}
+
+header > a{
+    color: var(--color2);
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+h1{
+    color: var(--color7);
+    margin-left: 15px;
 }
 
 /* ↓---Section1---↓ */
@@ -578,7 +594,7 @@ footer{
 }
 
 .finish-line strong:nth-of-type(1){
-    transform: translateY(35%) rotate(-5deg);
+    transform: translateY(45%) rotate(-5deg);
 }
 
 .finish-line strong:last-of-type::first-letter{
@@ -586,7 +602,7 @@ footer{
 }
 
 .finish-line strong:last-of-type{
-    transform: translate(10%, 15%)
+    transform: translate(20%, 25%)
 }
 
 footer > p{
