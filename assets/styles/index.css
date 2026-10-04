@@ -17,6 +17,7 @@
     /* Blacks & Whites */
     --black1: rgb(0, 0, 0);
     --white1: rgb(255, 255, 255);
+    --bg: rgb(245, 245, 245);
     /* Other colors */
     --color1: rgb(0, 0, 255);
     --color2: rgb(0, 255, 0);
@@ -29,9 +30,10 @@
 
 /* ↓ ----- Specific rules ----- ↓ */
 
-body{
+html, body{
     overflow-x: hidden;
     color: var(--color1);
+    background: var(--bg);
     text-align: center;
 }
 
@@ -115,7 +117,7 @@ header{
 }
 
 header > a{
-    color: var(--color2);
+    color: var(--color7);
     position: absolute;
     right: 20px;
     top: 50%;
@@ -177,7 +179,7 @@ h1{
 }
 
 .gear-container:nth-of-type(1) > .tool:nth-of-type(3) > .img{
-    background: url(../imgs/pexels-jacob-moseholt-514418-18517278.webp) center/cover;
+    background: url(../imgs/pexels-jacob-moseholt-514418-18517278.webp) center/cover round;
 }
 
 .gear-container:nth-of-type(1) > .tool:nth-of-type(5) > .img{
@@ -357,6 +359,10 @@ h1{
     text-align: left;
     padding-right: 15px;
     font-weight: normal;
+}
+
+.cleaning-utensil:nth-of-type(4) > .targets > h6:last-of-type{
+    grid-column-end: span 2;
 }
 
 .more-columns{
@@ -621,4 +627,91 @@ footer > p:nth-of-type(2)::first-letter{
 
 footer > p:nth-of-type(3){
     margin-bottom: 7.5rem;
+}
+
+/* ↓---Responsive---↓ */
+
+@media screen and (max-width: 1350px) {
+    .gear-container .description{
+        height: 70px;
+    }
+    
+    .gear-container:nth-of-type(1) > .tool:nth-of-type(5) > .img{
+        background: url(../imgs/pexels-mikhail-nilov-7814643.jpg) bottom/cover;
+    }
+}
+
+@media screen and (max-width: 1295px){
+    .section4 > .columns > .cleaning-utensil:nth-of-type(3) > .targets > .more-rows{
+        grid-column-start: 1;
+        grid-row-start: 2;
+        grid-row-end: none;
+    }
+    
+    .section4 > .columns > .cleaning-utensil:nth-of-type(3) > .targets > h6{
+        grid-column-end: span 2;
+    }
+    
+    .section4 > .columns > .cleaning-utensil:nth-of-type(3) > .targets > .useless-cell{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1190px) {
+    .gear{
+        row-gap: 0;
+    }
+    
+    .gear-container{
+        grid-template-columns: 5rem 1fr 5rem;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
+    
+    .gear-container > .tool:nth-of-type(1){
+        grid-column: span 2;
+    }
+    
+    .gear-container > .tool:nth-of-type(3){
+        grid-column: span 3;
+    }
+    
+    .gear-container > .tool:nth-of-type(5){
+        grid-column: span 2;
+    }
+    
+    .gear-container > .tool:nth-of-type(7){
+        grid-column: span 2;
+    }
+    
+    .gear-container > .tool:nth-of-type(9){
+        grid-column: span 2;
+    }
+    
+    .gear-container .img{
+        height: 85vh;
+    }
+    
+    .gear-container > .tool > .img{
+        background-repeat: round;
+    }
+
+    .gear-container:nth-of-type(1) > .tool:nth-of-type(1) > .img{
+        background: url(../imgs/pexels-lucanardone-&-karola-g.webp) round;
+    }
+    
+    .gear-container:nth-of-type(1) > .tool:nth-of-type(5) > .img{
+        background: url(../imgs/pexels-mikhail-nilov-7814643.jpg) round;
+    }
+    
+    .gear-container:nth-of-type(1) > .tool:nth-of-type(7) > .img{
+        background: url(../imgs/pexels-stephanefabricebass-14215010.jpg) round;
+    }
+    
+    .gear-container:nth-of-type(1) > .tool:nth-of-type(9) > .img{
+        background: url(../imgs/pexels-anete-lusina-4792719.jpg) round;
+    }
+    
+    .gear-container:nth-of-type(2) > .tool:nth-of-type(3) > .img{
+        background: url(../imgs/pexels-jonathanborba-28576626.jpg) round;
+    }
 }

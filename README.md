@@ -1,5 +1,5 @@
-# rsg-psn-4-bicycle.github.io --- Day11
+# rsg-psn-4-bicycle.github.io --- Day12
 
-Well, well, well… no "media queries" today.
+I FINALLY BEGAN THE RESPONSIVE MY FRIENDS /(^.^)/ !
 
-Next day, it WILL BE the day!! I promise. My English-speaking friends ;) !
+Unfortunately, I was ill this day >_<… so, I just ENTIRE responsive the class="gear" and some stuff until 1190 large screen. Thank you so much <3!
