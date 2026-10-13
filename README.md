@@ -1,5 +1,5 @@
-# rsg-psn-4-bicycle.github.io --- Day12
+# rsg-psn-4-bicycle.github.io --- Day13
 
-I FINALLY BEGAN THE RESPONSIVE MY FRIENDS /(^.^)/ !
+Today, I didn't have enough time contrary to this ill day. So, as far as I can… until 800 large screen responsive ^^'.
 
-Unfortunately, I was ill this day >_<… so, I just ENTIRE responsive the class="gear" and some stuff until 1190 large screen. Thank you so much <3!
+Thank you!
