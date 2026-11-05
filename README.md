@@ -1,5 +1,5 @@
-# rsg-psn-4-bicycle.github.io --- Day13
+# rsg-psn-4-bicycle.github.io --- Day14
 
-Today, I didn't have enough time contrary to this ill day. So, as far as I can… until 800 large screen responsive ^^'.
+I didn't have enough time (like a surprise, lol). BUT! NEXT DAY! I promise to be 100% responsive! Because there are some details to correct yet ^^.
 
-Thank you!
+Arigatou XD!
