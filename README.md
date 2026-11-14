@@ -1,5 +1,7 @@
-# rsg-psn-4-bicycle.github.io --- Day14
+# rsg-psn-4-bicycle.github.io --- Day15 (END)
 
-I didn't have enough time (like a surprise, lol). BUT! NEXT DAY! I promise to be 100% responsive! Because there are some details to correct yet ^^.
+FINALLY! The end isn't near anymore… IT'S SIMPLY “HERE” FROM NOW ON!
 
-Arigatou XD!
+I did my best to be more enjoyable to read for any format. According to "Lighthouse", the “Performance” & the “Accessibility” from my site are higher than 80%. For a 1st "Personal project" category, isn't so bad! Don't you think?
+
+Anyway, thank you for your time earthling ^^!
